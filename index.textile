@@ -13,10 +13,19 @@ end
 
 And we'll try C#
 
-{% highlight c# %}
+{% highlight csharp %}
 public class Something{
   public T GetInstance<T>(){
-	return _container.GetNamedInstance("Default");
+	return _container.GetNamedInstance("CSharp Lexer");
+  }
+}
+{% endhighlight %}
+
+
+{% highlight aspx-cs %}
+public class Something{
+  public T GetInstance<T>(){
+	return _container.GetNamedInstance("ASPNet Lexer");
   }
 }
 {% endhighlight %}
