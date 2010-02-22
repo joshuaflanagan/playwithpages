@@ -4,14 +4,19 @@ layout: default
 ---
 <h1>This is my page</h1>
 Hello first page
+
 {% highlight ruby %}
 def foo
    puts 'foo'
 end
 {% endhighlight %}
+
 And we'll try C#
+
 {% highlight c# %}
-public T GetInstance<T>(){
+public class Something{
+  public T GetInstance<T>(){
 	return _container.GetNamedInstance("Default");
+  }
 }
 {% endhighlight %}
