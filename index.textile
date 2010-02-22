@@ -1,11 +1,7 @@
 ---
 title: Practice
+layout: default
 ---
-<html>
-<head>
-<link href="css/syntax.css" media="screen" rel="stylesheet" type="text/css" /> 
-</head>
-<body>
 <h1>This is my page</h1>
 Hello first page
 {% highlight ruby %}
@@ -19,6 +15,3 @@ public T GetInstance<T>(){
 	return _container.GetNamedInstance("Default");
 }
 {% endhighlight %}
-
-</body>
-</html>
