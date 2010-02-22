@@ -13,5 +13,12 @@ def foo
    puts 'foo'
 end
 {% endhighlight %}
+And we'll try C#
+{% highlight c# %}
+public T GetInstance<T>(){
+	return _container.GetNamedInstance("Default");
+}
+{% endhighlight %}
+
 </body>
 </html>
